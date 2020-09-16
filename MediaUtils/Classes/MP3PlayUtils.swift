@@ -133,5 +133,17 @@ import NFAToolkit
         callBack?()
     }
     
+    //静音也要能播放
+    public class func playback(_ category: AVAudioSession.Category = .playback){
+        do {
+          let session = AVAudioSession.sharedInstance()
+          if #available(iOS 10.0, *) {
+            try session.setCategory(category)
+          }
+          try session.setActive(true)
+          UIApplication.shared.beginReceivingRemoteControlEvents()
+      } catch { }
+    }
+    
     
 }
