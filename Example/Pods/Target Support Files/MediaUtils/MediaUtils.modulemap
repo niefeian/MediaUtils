@@ -1,0 +1,6 @@
+framework module MediaUtils {
+  umbrella header "MediaUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

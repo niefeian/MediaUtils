@@ -1,5 +1,6 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
 target 'MediaUtils_Example' do
   pod 'MediaUtils', :path => '../'
 
@@ -10,5 +11,7 @@ target 'MediaUtils_Example' do
     pod 'Nimble', '~> 7.0'
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'Nimble-Snapshots' , '~> 6.3.0'
+    
+     pod 'NFAToolkit'
   end
 end
