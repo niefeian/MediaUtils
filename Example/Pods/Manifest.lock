@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MediaUtils (0.1.0):
+  - MediaUtils (0.1.1):
     - NFAToolkit
   - NFAToolkit (0.1.1)
   - Nimble (7.3.4)
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MediaUtils: 9d5013540e55afe3606844240ac5164c9dcf125c
+  MediaUtils: a89dcef07f18f869272fc5f0e286bc7dbb80c4c5
   NFAToolkit: 71585955a80b8d7b820939e6e256ace92c998120
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
